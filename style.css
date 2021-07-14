@@ -1,10 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
 background-color:white;
+margin:0;
+top:0;
 }
-.flexible-container{
-    display:flex;
-}
+
+
 header{
     height:677px;
     width:100%;
@@ -12,23 +13,7 @@ header{
     margin:0px;
     top:0px;
 }
-.messi{
-    display: none;
-    position:absolute;
-    
-    
-}
-.messi img{
-    width:650px;
-    height:450px;
-    padding-top:50px
 
-}
-header:hover .messi{
-    display: block;
-    margin-top:10px;
-    
-}
 /* navbar style queries */
 ul{
 list-style: none;
@@ -95,9 +80,8 @@ li a{
     width: 168px;
     height: 44px;
     margin-top:24px;
-    
     font-size: 16px;
-    height: 44px;
+    
 }
 .fa-arrow-right{
     padding-left:5px;
