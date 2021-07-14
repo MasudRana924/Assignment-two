@@ -9,6 +9,8 @@ header{
     height:677px;
     width:100%;
     background-color:midnightblue;
+    margin:0px;
+    top:0px;
 }
 .messi{
     display: none;
