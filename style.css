@@ -68,12 +68,13 @@ li a{
 /* image transition */
 .half-width img{
     width:400px;
-    height:438px;
+    height:300px;
     padding-top:50px;
     transition:width 2s;
 }
 .half-width img:hover{
  width:556px;
+ height:438px;
 }
 
 
@@ -242,6 +243,72 @@ span i{
     
 }
 @media only screen and (min-width:688px) and (max-width:992px){
+    body {
+        font-family: 'Poppins', sans-serif;
+        max-width: 600px;
+        overflow-x: hidden;
+
+    }
+    header {
+        width: 100%;
+        height: auto;
+    }
+    .header-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .half-width{
+        width: 100%;
+    }
+    .half-width img{
+        width: 329px;
+        height: 259px;
+        
+    }
+    main{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+     .player-details{
+         width: 100%;
+         display: flex;
+         flex-flow: column;
+     }
+     .player{
+         width: 100%;
+         place-items: center;
+     }
+     .players{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-row-gap: 30px;
+        width: 350px;
+     }
+     .tournament-details {
+        margin-top: 30px;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        gap: 50px;
+
+    }
+
+    .half-width h1 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    footer img {
+        width: 275px;
+    }
+
+
+    .tournament-details .half-width img {
+
+        width: 328px;
+        height: 248px;
+    }
      
     
 }
