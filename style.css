@@ -1,0 +1,180 @@
+body{
+    font-family: 'Poppins', sans-serif;
+background-color:white;
+}
+.flexible-container{
+    display:flex;
+}
+header{
+    height:677px;
+    width:100%;
+    background-color:midnightblue;
+}
+/* navbar style queries */
+ul{
+list-style: none;
+width: 1160px;
+height: 44px;
+padding:10px;
+margin:0 auto;
+}
+li{
+    float:left;
+    padding:10px;
+}
+li a{
+    color:white;
+    text-decoration: none;
+    font-size:16px;
+}
+/* navbar button */
+.navbar-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color:white;
+    padding: 10px 24px;
+    width: 123px;
+    height: 44px;
+    margin-top:24px;
+}
+.fa-sign-in-alt{
+    padding-right: 8px;
+}
+.header-container{
+    padding: 30px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ /* h1{
+    color:#FFFFFF;
+    width: 485px;
+    margin-left: 156px;
+    font-size:40px;
+}  */
+.half-width{
+    width: 585px;
+    margin-left:30px;
+}
+.half-width img{
+    width:556.01px;
+    height:438px;
+    padding-top:50px;
+}
+.half-width h1 {
+    font-size: 50px;
+}
+.button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color:white;
+    padding: 10px 24px;
+    width: 168px;
+    height: 44px;
+    margin-top:24px;
+    
+    font-size: 16px;
+    height: 44px;
+}
+.fa-arrow-right{
+    padding-left:5px;
+    color:white;
+}
+
+/* main style queries */
+main{
+    background-color: white;
+   
+}
+.player-details{
+    margin:0 auto;
+    width:1050px;
+    margin-top:70px;
+ 
+}
+.players{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap:30px;
+   grid-column-gap:30px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    padding:10px;
+    border-radius: 15px;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player h2{
+    font-size: 28px;
+}
+.player p{
+    font-size: 16px;
+    color:#6C6C6C; 
+    text-align: justify;
+}
+/* tournament style queries */
+.tournament-details{
+    margin-left:110px;
+    margin-right: 80px;
+    margin-top:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+p{
+ 
+font-size: 12px;
+color:#6C6C6C;
+
+}
+/* footer style queries */
+footer{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin:70px;
+
+}
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+span i{
+    width:32px;
+    height:32px;
+}
+.copyright{
+   color: #000000;
+}
+/* media queries */
+@media only screen and (max-width:688px) {
+
+    
+    .header-container{
+        width:100%;
+       
+    }
+    .half-width{
+      display: flex;
+      flex-flow: column;
+
+    }
+    
+
+}
+@media only screen and (min-width:688px) and (max-width:992px){
+     
+    
+}
