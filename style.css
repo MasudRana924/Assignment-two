@@ -10,6 +10,23 @@ header{
     width:100%;
     background-color:midnightblue;
 }
+.messi{
+    display: none;
+    position:absolute;
+    
+    
+}
+.messi img{
+    width:650px;
+    height:450px;
+    padding-top:50px
+
+}
+header:hover .messi{
+    display: block;
+    margin-top:10px;
+    
+}
 /* navbar style queries */
 ul{
 list-style: none;
@@ -171,7 +188,7 @@ span i{
       flex-flow: column;
 
     }
-    
+
 
 }
 @media only screen and (min-width:688px) and (max-width:992px){
